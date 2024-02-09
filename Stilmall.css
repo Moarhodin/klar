@@ -1,0 +1,70 @@
+
+    #SvartRektangel {
+	/* Svart ruta ovanpå bakgrunden */
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 1cm; /* Tjockleken på den svarta rutan */
+	background-color: black;
+	display: flex; /* Använd flexbox */
+	align-items: center; /* Centrera vertikalt */
+	z-index: 1000; /* Så att den ligger över bakgrundsbilden */
+	justify-content: right; /* Placera texterna horisontellt med mellanrum emellan */
+	gap: 20px;   
+    }
+
+    #sökMenyText {
+	/* Stil för texten över den gröna rutan */
+	color: white; 
+	font-size: 24px; 
+	cursor: pointer;
+	max-width: 152px; 
+    }
+
+    .submenu {
+	display: none;
+	position: absolute;
+	top: 1cm;
+	right: 0;
+	background-color: black;
+	flex-direction: column;
+	align-items: flex-start;
+	gap: 10px;
+	padding: 30px;
+    }
+
+    .submenu a {
+	color: white;
+	text-decoration: none;
+	font-size: 24px;
+	cursor: pointer;
+    }
+
+    #grönaRutanHem {
+	/* Grön ruta ovanpå det svarta */
+	position: fixed;
+	top: 0;
+	left: 0;
+	display: flex; /* Använd flexbox */
+	align-items: center; /* Centrera vertikalt */
+	justify-content: center; /* Centrera horisontellt */
+	width: 174px;
+	height: 1cm; /* Tjockleken på den svarta rutan */
+	background-color:#296829; /* Hexadecimal kod för ren grön färg */
+	z-index: 2; /* Så att den ligger över bakgrundsbilden */
+	text-align: center; /* Centrera texten horisontellt */
+	
+    }
+    
+    #hemText {
+	/* Stil för texten över den gröna rutan */
+	color: white; 
+	font-size: 24px; 
+	cursor: pointer;
+    }
+
+
+
+
+
